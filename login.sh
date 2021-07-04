@@ -1,3 +1,5 @@
+#!/bim/bash
+trap ctrl_c 2
 #!/data/data/com.termux/usr/bin/bash
 clear
 echo -e "
