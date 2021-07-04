@@ -1,5 +1,3 @@
-#!/bim/bash
-trap ctrl_c
 #!/data/data/com.termux/usr/bin/bash
 clear
 echo -e "
@@ -106,7 +104,6 @@ echo -e "\e[1;30m
 └════════════════════════════════════════┘
 \e[0m" | pv -qL 8888
 PS1="\[\e[1;37m╭━━━( \033[1;30m@\033[1;32mScorpio28\033[0;35m\w\e[0m )━━━●\n│\n╰━━━═>>> "
-ctrl_c(){
 shopt -s autocd
 shopt -s cdspell
 shopt -s checkhash
