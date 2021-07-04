@@ -153,7 +153,7 @@ echo -e "\e[1;30m
 █ \e[1;32mCLOSE AND RE-OPEN THE TERMINAL\e[1;30m █
 └════════════════════════════════┘\e[0m"
 sleep 1
-Login
+login
 fi
 }
-Login
+login
