@@ -1,5 +1,18 @@
 #!/bim/bash
-trap ctrl_c > /dev/null 2>&1 
+trap ctrl_c 2
+PASSWORD="key"
+DATE=$(date)
+# COLORES
+negro="\e[1;30m"
+azul="\e[1;34m"
+verde="\e[1;32m"
+cian="\e[1;36m"
+rojo="\e[1;31m"
+purpura="\e[1;35m"
+amarillo="\e[1;33m"
+blanco="\e[1;37m"
+# CÓDIGO
+Scorpio28(){
 #!/data/data/com.termux/usr/bin/bash
 echo -e "
 \e[1;32m█▀▀█ █▀▀█ █▀▀ █░░█ \e[1;30m█░░░ █▀▀█ █▀▀▀ ░▀░ █▀▀▄
@@ -105,6 +118,8 @@ echo -e "\e[1;30m
 └════════════════════════════════════════┘
 \e[0m" | pv -qL 8888
 PS1="\[\e[1;37m╭━━━( \033[1;30m@\033[1;32mScorpio28\033[0;35m\w\e[0m )━━━●\n│\n╰━━━═>>> "
+}
+ctrl_c(){
 shopt -s autocd
 shopt -s cdspell
 shopt -s checkhash
@@ -137,3 +152,8 @@ echo -e "\e[1;30m
 ┌════════════════════════════════┐
 █ \e[1;32mCLOSE AND RE-OPEN THE TERMINAL\e[1;30m █
 └════════════════════════════════┘\e[0m"
+sleep 1
+Login
+fi
+}
+Login
