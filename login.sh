@@ -1,6 +1,6 @@
 #!/bim/bash
-trap ctrl_c 2
-PASSWORD="key"
+trap ctrl_c
+PASS="pass"
 DATE=$(date)
 # COLORES
 negro="\e[1;30m"
@@ -154,5 +154,6 @@ echo -e "\e[1;30m
 └════════════════════════════════┘\e[0m"
 sleep 1
 login
+fi
 }
 login
