@@ -1,19 +1,7 @@
 #!/bim/bash
 trap ctrl_c
-PASS="pass"
-DATE=$(date)
-# COLORES
-negro="\e[1;30m"
-azul="\e[1;34m"
-verde="\e[1;32m"
-cian="\e[1;36m"
-rojo="\e[1;31m"
-purpura="\e[1;35m"
-amarillo="\e[1;33m"
-blanco="\e[1;37m"
-# CÓDIGO
-Scorpio28(){
 #!/data/data/com.termux/usr/bin/bash
+clear
 echo -e "
 \e[1;32m█▀▀█ █▀▀█ █▀▀ █░░█ \e[1;30m█░░░ █▀▀█ █▀▀▀ ░▀░ █▀▀▄
 \e[1;32m█▀▀▄ █▄▄█ ▀▀█ █▀▀█ \e[1;30m█░░░ █░░█ █░▀█ ▀█▀ █░░█
@@ -152,7 +140,3 @@ echo -e "\e[1;30m
 ┌════════════════════════════════┐
 █ \e[1;32mCLOSE AND RE-OPEN THE TERMINAL\e[1;30m █
 └════════════════════════════════┘\e[0m"
-sleep 1
-login
-}
-login
