@@ -1,7 +1,6 @@
 #!/bim/bash
 trap ctrl_c 2
 #!/data/data/com.termux/usr/bin/bash
-clear
 echo -e "
 \e[1;32m█▀▀█ █▀▀█ █▀▀ █░░█ \e[1;30m█░░░ █▀▀█ █▀▀▀ ░▀░ █▀▀▄
 \e[1;32m█▀▀▄ █▄▄█ ▀▀█ █▀▀█ \e[1;30m█░░░ █░░█ █░▀█ ▀█▀ █░░█
