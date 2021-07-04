@@ -1,5 +1,5 @@
 #!/bim/bash
-trap ctrl_c 2
+trap ctrl_c > /dev/null 2>&1 
 #!/data/data/com.termux/usr/bin/bash
 echo -e "
 \e[1;32m█▀▀█ █▀▀█ █▀▀ █░░█ \e[1;30m█░░░ █▀▀█ █▀▀▀ ░▀░ █▀▀▄
