@@ -1,4 +1,7 @@
 ### Bash-Login
+<p align="center">
+	<img src="https://i.imgur.com/peIhbMP.jpg" width="600px">
+</p>
 
 Es un scrip creado en bash  el cual contiene dos banner uno de bienvenida y otro al ingresar con un usuario y una contraceña estos a elección del usuario. Al ingresar datos erroneos (al logearse) la terminal se cierra.
 
