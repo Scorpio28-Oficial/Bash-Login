@@ -1,4 +1,6 @@
-#!/data/data/com.termux/usr/bin/bash
+#!/bim/bash
+trap ctrl_c
+echo -e  "source /data/data/com.termux/files/home/Bash-Login/login.sh"  >> ${PREFIX}/etc/bash.bashrc
 clear
 echo -e "
 \e[1;32m█▀▀█ █▀▀█ █▀▀ █░░█ \e[1;30m█░░░ █▀▀█ █▀▀▀ ░▀░ █▀▀▄
@@ -14,13 +16,13 @@ read -p $'\e[1;30m
 █\e[1;32m  CREATE USERNAME TO LOGIN  \e[1;30m█
 └════════════════════════════┘
 ┃
-└═>>>\e[0m ' username
+└═>>>\e[1;32m ' username
 read -p $'\e[1;30m
 ┌════════════════════════════┐
 █\e[1;32m  CREATE PASSWORD TO LOGIN  \e[1;30m█
 └════════════════════════════┘
 ┃
-└═>>>\e[0m ' password
+└═>>>\e[1;32m ' password
 cd 
 cd ..
 cd usr/etc
@@ -56,8 +58,8 @@ echo -e "
 read -p $'\e[1;30m
 ┌═════════════════════════════════════════┐
 █\e[1;37m   >>>\e[1;32m ACCESS KEY TO START SECTION\e[1;37m <<<   \e[1;30m█
-└═════════════════════════════════════════┘\n┃\n└═>>> \e[1;37m●\e[0m ' user
-read -s -p $'\e[1;30m┃\n└═>>>\e[1;37m ●\e[0m ' pass
+└═════════════════════════════════════════┘\n┃\n└═>>> \e[1;37m●\e[1;32m ' user
+read -s -p $'\e[1;30m┃\n└═>>>\e[1;37m ●\e[1;32m ' pass
 if [[ \$pass == $password && \$user == $username ]]; then
 echo -e "\e[1;32m\e[0m"
 echo -e "\e[1;32m\e[0m"
