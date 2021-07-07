@@ -8,9 +8,7 @@ Es un scrip creado en bash  el cual contiene dos banner uno de bienvenida y otro
 ### INSTALACION
 
 ```
-$ apt update && apt upgrade
-
-$ pkg install pv
+$ apt update && apt upgrade -y
 
 $ pkg install git bash -y
 
