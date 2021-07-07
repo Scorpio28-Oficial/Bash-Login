@@ -78,6 +78,7 @@ echo -e "\e[1;32m\e[0m"
 echo -e "\e[1;32m\e[0m"
 sleep 0.5
 echo -e "\e[1;32m[\e[1;37m██████████████████████████████████\e[1;32m]" | pv -qL 45
+sleep 0.5
 echo -e "\e[1;30m\n            LOADING..."
 clear
 sleep 0.5
