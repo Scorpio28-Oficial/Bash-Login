@@ -34,5 +34,5 @@ $ bash login.sh
 
 #### Captura 3
 <p align="center">
-	<img src="https://i.imgur.com/CUlneeT.jpg" width="600px">
+	<img src="https://i.imgur.com/aH0yckB.jpg" width="600px">
 </p>
