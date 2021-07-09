@@ -29,7 +29,7 @@ $ bash login.sh
 
 #### Captura 2
 <p align="center">
-	<img src="https://i.imgur.com/goKqMWw.jpg" width="600px">
+	<img src="https://i.imgur.com/zRITxlX.jpg" width="600px">
 </p>
 
 #### Captura 3
