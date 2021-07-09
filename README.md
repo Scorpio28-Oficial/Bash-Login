@@ -22,17 +22,17 @@ $ bash login.sh
 ```
 ### By: Por Scorpio28
 
-#### Capturas
+#### Captura 1
 <p align="center">
 	<img src="https://i.imgur.com/9sXk5d0.jpg" width="600px">
 </p>
 
-
+#### Captura 2
 <p align="center">
 	<img src="https://i.imgur.com/CUlneeT.jpg" width="600px">
 </p>
 
-
+#### Captura 3
 <p align="center">
 	<img src="https://i.imgur.com/goKqMWw.jpg" width="600px">
 </p>
