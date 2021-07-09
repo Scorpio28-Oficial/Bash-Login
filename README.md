@@ -21,3 +21,14 @@ $ chmod 777 login.sh
 $ bash login.sh
 ```
 ### By: Por Scorpio28
+
+#### Capturas
+<p align="center">
+ <img src="Phonia https://i.imgur.com/goKqMWw.jpg" width="600px">
+</p>
+<p align="center">
+ <img src="Phonia https://i.imgur.com/CUlneeT.jpg" width="600px">
+</p>
+<p align="center">
+ <img src="Phonia https://i.imgur.com/9sXk5d0.jpg" width="600px">
+</p>
