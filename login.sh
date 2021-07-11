@@ -26,13 +26,13 @@ echo -e "
 \e[0m"
 read -p $'\e[1;30m
 ┌════════════════════════════┐
-█\e[1;32m  CREATE USERNAME TO LOGIN  \e[1;30m█
+█\e[1;37m  CREATE USERNAME TO LOGIN  \e[1;30m█
 └════════════════════════════┘
 ┃
 └═>>>\e[1;32m ' username
 read -p $'\e[1;30m
 ┌════════════════════════════┐
-█\e[1;32m  CREATE PASSWORD TO LOGIN  \e[1;30m█
+█\e[1;37m  CREATE PASSWORD TO LOGIN  \e[1;30m█
 └════════════════════════════┘
 ┃
 └═>>>\e[1;32m ' password
@@ -149,5 +149,5 @@ trap 2
 LOGIN
 echo -e "\e[1;30m
 ┌════════════════════════════════┐
-█ \e[1;32mCLOSE AND RE-OPEN THE TERMINAL\e[1;30m █
+█ \e[1;37mCLOSE AND RE-OPEN THE TERMINAL\e[1;30m █
 └════════════════════════════════┘\e[0m"
