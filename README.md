@@ -8,9 +8,11 @@ Es un scrip creado en bash  el cual contiene dos banner uno de bienvenida y otro
 ### INSTALACION
 
 ```
-$ pkg update && apt upgrade -y
+$ pkg update && pkg upgrade -y
 
 $ pkg install git bash -y
+
+$ pkg install -y git
 
 $ git clone https://github.com/Scorpio28-Oficial/Bash-Login
 
