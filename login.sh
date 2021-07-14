@@ -97,13 +97,8 @@ read -s -p $'\e[1;30m┃\n└═>>>\e[1;37m ●\e[1;32m ' pass
 if [[ \$pass == $password && \$user == $username ]]; then
 echo -e "\e[1;32m\e[0m"
 echo -e "\e[1;32m\e[0m"
-sleep 0.5
-echo -e ""\e[1;30m
-echo -e "\e[1;30m┌═════════════════════════════┐"
-echo -e "█ \e[1;32m███████████████████████████ \e[1;30m█ 100%" |pv -qL 75
-echo -e "└═════════════════════════════┘"
-echo -e ""
-sleep 1
+sleep 0.1
+echo -e "\e[1;32m[\e[1;37m██████████████████████████████████\e[1;32m]" | pv -qL 45
 echo -e "\e[1;30m\n            LOADING..."
 clear
 sleep 0.1
