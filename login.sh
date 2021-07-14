@@ -43,31 +43,52 @@ rm motd
 rm bash.bashrc
 cat <<LOGIN>bash.bashrc
 trap '' 2
-sleep 0.5
-echo -e "
-\e[1;30m╔══════════════════════════════════════════════════════╗\e[1;32m
-\e[1;30m║\e[1;32m   \e[1;30m[\e[1;36m+\e[1;30m] \e[1;30m[\e[1;36m+\e[1;30m] \e[1;30m[\e[1;36m+\e[1;30m]\e[1;37m 🎭 S C O R P I O 2 8 🎭 \e[1;30m[\e[1;36m+\e[1;30m] \e[1;30m[\e[1;36m+\e[1;30m] \e[1;30m[\e[1;36m+\e[1;30m]\e[1;32m    \e[1;30m║
-\e[1;30m║\e[1;32m                                                      \e[1;30m║\e[1;32m
-\e[1;30m║\e[1;32m           . .IIIII             .II                   \e[1;30m║\e[1;32m
-\e[1;30m║\e[1;32m  IIIIIII. I  II  .    II..IIIIIIIIIIIIIIIIIIII       \e[1;30m║\e[1;32m
-\e[1;30m║\e[1;32m .  .IIIIII  II          III \e[1;37mScorpio28\e[1;32m IIIIIIIIII.    \e[1;30m║\e[1;32m
-\e[1;30m║\e[1;32m    .IIIII.III I      IIIIIIIII \e[1;37mThe\e[1;32m IIIIIIIII  I.     \e[1;30m║\e[1;32m
-\e[1;30m║\e[1;32m   .IIIIII \e[1;37mHacking\e[1;32m II  .IIII \e[1;37mMexican\e[1;32m IIIII. III       \e[1;30m║\e[1;32m
-\e[1;30m║\e[1;32m    IIIIIII \e[1;37mFrom\e[1;32m    ' IIIII I IIIIIIIIIIII III I      \e[1;30m║\e[1;32m
-\e[1;30m║\e[1;32m    .II    \e[1;37mTermux\e[1;32m      IIIIIIIIIIII  IIIIIIIIII       \e[1;30m║\e[1;32m
-\e[1;30m║\e[1;32m       I.           .IIIIIIIIIIII   I   II  I         \e[1;30m║\e[1;32m
-\e[1;30m║\e[1;32m         .IIII        IIIIIIIIIIII     .       I      \e[1;30m║\e[1;32m
-\e[1;30m║\e[1;32m          IIIII.          IIIIII            . I.      \e[1;30m║\e[1;32m
-\e[1;30m║\e[1;32m         IIIIIIIII         IIIII            ..I  II.  \e[1;30m║\e[1;32m
-\e[1;30m║\e[1;32m          IIIIIII          IIII..             IIQII   \e[1;30m║\e[1;32m
-\e[1;30m║\e[1;32m            IIII           III. I            IIIEIII  \e[1;30m║\e[1;32m
-\e[1;30m║\e[1;32m            III             I                I  IPI   \e[1;30m║\e[1;32m
-\e[1;30m║\e[1;32m             II       \e[1;30m[\e[1;31m+\e[1;30m] \e[1;37mHacking \e[1;30m[\e[1;31m+\e[1;30m]\e[1;32m        D   .    \e[1;30m║\e[1;32m
-\e[1;30m║\e[1;32m             I            \e[1;33mEthical\e[1;32m                     \e[1;30m║\e[1;32m
-\e[1;30m║\e[1;32m                                                      \e[1;30m║\e[1;32m
-\e[1;30m║\e[1;32m \e[1;30m[\e[1;36m>\e[1;30m] \e[1;30m[\e[1;36m>\e[1;30m] \e[1;30m[\e[1;36m>\e[1;30m]\e[1;37m $(date) \e[1;30m[\e[1;36m<\e[1;30m] \e[1;30m[\e[1;36m<\e[1;30m] \e[1;30m[\e[1;36m<\e[1;30m] \e[1;30m║\e[1;32m
-\e[1;30m╚══════════════════════════════════════════════════════╝
-\e[1;30m" | pv -qL 8888
+sleep 0.1
+echo -e "\e[1;30m╔══════════════════════════════════════════════════════╗\e[1;32m"
+sleep 0.1
+echo -e "\e[1;30m║\e[1;32m   \e[1;30m[\e[1;36m+\e[1;30m] \e[1;30m[\e[1;36m+\e[1;30m] \e[1;30m[\e[1;36m+\e[1;30m]\e[1;37m 🎭 S C O R P I O 2 8 🎭 \e[1;30m[\e[1;36m+\e[1;30m] \e[1;30m[\e[1;36m+\e[1;30m] \e[1;30m[\e[1;36m+\e[1;30m]\e[1;32m    \e[1;30m║"
+sleep 0.1
+echo -e "\e[1;30m║\e[1;32m                                                      \e[1;30m║\e[1;32m"
+sleep 0.1
+echo -e "\e[1;30m║\e[1;32m           . .IIIII             .II                   \e[1;30m║\e[1;32m"
+sleep 0.1
+echo -e "\e[1;30m║\e[1;32m  IIIIIII. I  II  .    II..IIIIIIIIIIIIIIIIIIII       \e[1;30m║\e[1;32m"
+sleep 0.1
+echo -e "\e[1;30m║\e[1;32m .  .IIIIII  II          III \e[1;37mScorpio28\e[1;32m IIIIIIIIII.    \e[1;30m║\e[1;32m"
+sleep 0.1
+echo -e "\e[1;30m║\e[1;32m    .IIIII.III I      IIIIIIIII \e[1;37mThe\e[1;32m IIIIIIIII  I.     \e[1;30m║\e[1;32m"
+sleep 0.1
+echo -e "\e[1;30m║\e[1;32m   .IIIIII \e[1;37mHacking\e[1;32m II  .IIII \e[1;37mMexican\e[1;32m IIIII. III       \e[1;30m║\e[1;32m"
+sleep 0.1
+echo -e "\e[1;30m║\e[1;32m    IIIIIII \e[1;37mFrom\e[1;32m    ' IIIII I IIIIIIIIIIII III I      \e[1;30m║\e[1;32m"
+sleep 0.1
+echo -e "\e[1;30m║\e[1;32m    .II    \e[1;37mTermux\e[1;32m      IIIIIIIIIIII  IIIIIIIIII       \e[1;30m║\e[1;32m"
+sleep 0.1
+echo -e "\e[1;30m║\e[1;32m       I.           .IIIIIIIIIIII   I   II  I         \e[1;30m║\e[1;32m"
+sleep 0.1
+echo -e "\e[1;30m║\e[1;32m         .IIII        IIIIIIIIIIII     .       I      \e[1;30m║\e[1;32m"
+sleep 0.1
+echo -e "\e[1;30m║\e[1;32m          IIIII.          IIIIII            . I.      \e[1;30m║\e[1;32m"
+sleep 0.1
+echo -e "\e[1;30m║\e[1;32m         IIIIIIIII         IIIII            ..I  II.  \e[1;30m║\e[1;32m"
+sleep 0.1
+echo -e "\e[1;30m║\e[1;32m          IIIIIII          IIII..             IIQII   \e[1;30m║\e[1;32m"
+sleep 0.1
+echo -e "\e[1;30m║\e[1;32m            IIII           III. I            IIIEIII  \e[1;30m║\e[1;32m"
+sleep 0.1
+echo -e "\e[1;30m║\e[1;32m            III             I                I  IPI   \e[1;30m║\e[1;32m"
+sleep 0.1
+echo -e "\e[1;30m║\e[1;32m             II       \e[1;30m[\e[1;31m+\e[1;30m] \e[1;37mHacking \e[1;30m[\e[1;31m+\e[1;30m]\e[1;32m        D   .    \e[1;30m║\e[1;32m"
+sleep 0.1
+echo -e "\e[1;30m║\e[1;32m             I            \e[1;33mEthical\e[1;32m                     \e[1;30m║\e[1;32m"
+sleep 0.1
+echo -e "\e[1;30m║\e[1;32m                                                      \e[1;30m║\e[1;32m"
+sleep 0.1
+echo -e "\e[1;30m║\e[1;32m \e[1;30m[\e[1;36m>\e[1;30m] \e[1;30m[\e[1;36m>\e[1;30m] \e[1;30m[\e[1;36m>\e[1;30m]\e[1;37m $(date) \e[1;30m[\e[1;36m<\e[1;30m] \e[1;30m[\e[1;36m<\e[1;30m] \e[1;30m[\e[1;36m<\e[1;30m] \e[1;30m║\e[1;32m"
+sleep 0.1
+echo -e "\e[1;30m╚══════════════════════════════════════════════════════╝"
+sleep 0.1
+echo -e ""
 read -p $'\e[1;30m
 ┌═════════════════════════════════════════┐
 █\e[1;37m   >>>\e[1;32m ACCESS KEY TO START SECTION\e[1;37m <<<   \e[1;30m█
