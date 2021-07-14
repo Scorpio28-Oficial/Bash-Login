@@ -98,7 +98,6 @@ if [[ \$pass == $password && \$user == $username ]]; then
 echo -e "\e[1;32m\e[0m"
 echo -e "\e[1;32m\e[0m"
 sleep 0.1
-echo -e "\e[1;32msleep 0.1
 echo -e "\e[1;30m
 ┌═════════════════════════┐
 █ \e[1;32mACCESSING THE SYSTEM... \e[1;30m█
