@@ -54,11 +54,11 @@ echo -e "\e[1;30m║\e[1;32m           . .IIIII             .II                 
 sleep 0.1
 echo -e "\e[1;30m║\e[1;32m  IIIIIII. I  II  .    II..IIIIIIIIIIIIIIIIIIII       \e[1;30m║\e[1;32m"
 sleep 0.1
-echo -e "\e[1;30m║\e[1;32m .  .IIIIII  II          III \e[1;37mScorpio28\e[1;32m IIIIIIIIII.    \e[1;30m║\e[1;32m"
+echo -e "\e[1;30m║\e[1;32m .  .IIIIII  II          III \e[1;37mInformatic\e[1;32m IIIIIIIII.    \e[1;30m║\e[1;32m"
 sleep 0.1
-echo -e "\e[1;30m║\e[1;32m    .IIIII.III I      IIIIIIIII \e[1;37mThe\e[1;32m IIIIIIIII  I.     \e[1;30m║\e[1;32m"
+echo -e "\e[1;30m║\e[1;32m    .IIIII.III I      IIIIIIIIII \e[1;37min\e[1;32m IIIIIIIII  I.     \e[1;30m║\e[1;32m"
 sleep 0.1
-echo -e "\e[1;30m║\e[1;32m   .IIIIII \e[1;37mHacking\e[1;32m II  .IIII \e[1;37mMexican\e[1;32m IIIII. III       \e[1;30m║\e[1;32m"
+echo -e "\e[1;30m║\e[1;32m   .IIIIII \e[1;37mHacking\e[1;32m II  .IIIII \e[1;37mTermux\e[1;32m IIIII. III       \e[1;30m║\e[1;32m"
 sleep 0.1
 echo -e "\e[1;30m║\e[1;32m    IIIIIII \e[1;37mFrom\e[1;32m    ' IIIII I IIIIIIIIIIII III I      \e[1;30m║\e[1;32m"
 sleep 0.1
