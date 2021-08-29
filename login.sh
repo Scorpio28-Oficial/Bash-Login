@@ -32,7 +32,7 @@ read -p $'\e[1;30m
 └═>>>\e[1;32m ' username
 read -p $'\e[1;30m
 ┌════════════════════════┐
-█\e[1;37m  ELIJA UNA CONTRACEÑA  \e[1;30m█
+█\e[1;37m  ELIJA UNA CONTRASEÑA  \e[1;30m█
 └════════════════════════┘
 ┃
 └═>>>\e[1;32m ' password
@@ -96,7 +96,7 @@ read -p $'\e[1;30m
 echo -e ''
 read -s -p $'\e[1;30m
 ┌════════════════════┐
-█\e[1;37m >>>\e[1;32m CONTRACEÑA\e[1;37m <<< \e[1;30m█
+█\e[1;37m >>>\e[1;32m CONTRASEÑA\e[1;37m <<< \e[1;30m█
 └════════════════════┘\n┃\n└═>>>\e[1;37m ●\e[1;32m ' pass
 if [[ \$pass == $password && \$user == $username ]]; then
 echo -e "\e[1;32m\e[0m"
