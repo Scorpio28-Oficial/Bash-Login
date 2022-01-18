@@ -80,16 +80,16 @@ echo -e "\e[1;30m║\e[1;32m            III             I                I  IPI 
 sleep 0.1
 echo -e "\e[1;30m║\e[1;32m             II       \e[1;30m[\e[1;31m+\e[1;30m] \e[1;37mHacking \e[1;30m[\e[1;31m+\e[1;30m]\e[1;32m        D   .    \e[1;30m║\e[1;32m"
 sleep 0.1
-echo -e "\e[1;30m║\e[1;32m             I           \e[1;33mEthical\e[1;32m                      \e[1;30m║\e[1;32m"
+echo -e "\e[1;30m║\e[1;32m             I            \e[1;33mEthical\e[1;32m                     \e[1;30m║\e[1;32m"
 sleep 0.1
 echo -e "\e[1;30m║\e[1;32m                                                      \e[1;30m║\e[1;32m"
 sleep 0.1
 echo -e "\e[1;30m║\e[1;32m \e[1;30m[\e[1;36m>\e[1;30m] \e[1;30m[\e[1;36m>\e[1;30m] \e[1;30m[\e[1;36m>\e[1;30m]\e[1;37m $(date) \e[1;30m[\e[1;36m<\e[1;30m] \e[1;30m[\e[1;36m<\e[1;30m] \e[1;30m[\e[1;36m<\e[1;30m] \e[1;30m║\e[1;32m"
 sleep 0.1
 echo -e "\e[1;30m╚══════════════════════════════════════════════════════╝"
+echo -e ""
 sleep 0.1
 echo -e "\e[1;30m            >>>\e[1;32m ENTER YOUR ACCESS CODE\e[1;30m <<<\e[0m"
-echo -e ""
 read -p $'\e[1;30m
 \e[1;30m                   ●\e[1;32m USERNAME\e[1;30m :\e[0;30m ' user
 read -s -p $'\e[1;30m                   ●\e[1;32m PASSWORD\e[1;30m :\e[0;30m ' pass
