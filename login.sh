@@ -2,7 +2,7 @@
 echo -e "\e[1;37m
 -----------------------------------------------------------
                    B Y  S C O R P I O 2 8        
-           Comenzando La Instalación de Bash-Login
+            Starting the Bash-Login Installation
 -----------------------------------------------------------\e[0m"
 echo
 cp login.sh $PREFIX/etc
