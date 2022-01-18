@@ -7,12 +7,12 @@ echo -e "\e[1;37m
 echo
 cp login.sh $PREFIX/etc
 apt update
-pkg install pv
-pkg install cmatrix
+pkg install -y pv
+pkg install -y cmatrix
 apt-get install -y ruby
 apt-get install -y espeak
-apt install python
-pip install lolcat
+apt install python -y
+pip install -y lolcat
 #!/data/data/com.termux/usr/bin/bash
 clear
 echo -e "
