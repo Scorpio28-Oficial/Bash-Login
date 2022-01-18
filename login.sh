@@ -78,9 +78,9 @@ echo -e "\e[1;30m║\e[1;32m            IIII           III. I            IIIEIII
 sleep 0.1
 echo -e "\e[1;30m║\e[1;32m            III             I                I  IPI   \e[1;30m║\e[1;32m"
 sleep 0.1
-echo -e "\e[1;30m║\e[1;32m             II       \e[1;30m[\e[1;31m+\e[1;30m] \e[1;37mHacking \e[1;30m[\e[1;31m+\e[1;30m]\e[1;32m        D   .    \e[1;30m║\e[1;32m"
+echo -e "\e[1;30m║\e[1;32m             II       \e[1;30m[\e[1;31m+\e[1;30m] \e[1;37mEthical \e[1;30m[\e[1;31m+\e[1;30m]\e[1;32m        D   .    \e[1;30m║\e[1;32m"
 sleep 0.1
-echo -e "\e[1;30m║\e[1;32m             I            \e[1;33mEthical\e[1;32m                     \e[1;30m║\e[1;32m"
+echo -e "\e[1;30m║\e[1;32m             I            \e[1;33mHacking\e[1;32m                     \e[1;30m║\e[1;32m"
 sleep 0.1
 echo -e "\e[1;30m║\e[1;32m                                                      \e[1;30m║\e[1;32m"
 sleep 0.1
