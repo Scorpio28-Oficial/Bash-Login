@@ -6,13 +6,11 @@ echo -e "\e[1;37m
 -----------------------------------------------------------\e[0m"
 echo
 cp login.sh $PREFIX/etc
-apt update
+yes|pkg update && pkg upgrade
 pkg install -y pv
-pkg install -y cmatrix
-apt-get install -y ruby
-apt-get install -y espeak
 apt install python -y
-pip install -y lolcat
+pip install -y fish
+pkg install -y vim
 #!/data/data/com.termux/usr/bin/bash
 clear
 echo -e "
