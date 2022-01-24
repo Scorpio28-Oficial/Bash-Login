@@ -174,7 +174,11 @@ sleep 0.1
 echo -e "└════════════════════════════════════════┘"
 sleep 0.1
 echo -e ""
-PS1="\[\e[1;37m╭━━━( \033[1;30m@\033[1;32mScorpio28\033[0;35m\w\e[0m )━━━●\n│\n╰━━━═>>> "
+trap 2
+echo -e "\e[1;37m"
+alias bye="exit;exit"
+fish
+bye
 shopt -s autocd
 shopt -s cdspell
 shopt -s checkhash
