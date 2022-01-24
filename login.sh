@@ -172,10 +172,6 @@ sleep 0.1
 echo -e "└════════════════════════════════════════┘"
 sleep 0.1
 echo -e ""
-echo -e "\e[1;37m"
-alias bye="exit;exit"
-fish
-bye
 PS1="\[\e[1;37m╭━━━( \033[1;30m@\033[1;32mScorpio28\033[0;35m\w\e[0m )━━━●\n│\n╰━━━═>>> "
 shopt -s autocd
 shopt -s cdspell
