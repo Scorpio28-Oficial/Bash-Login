@@ -9,7 +9,7 @@ cp login.sh $PREFIX/etc
 yes|pkg update && pkg upgrade
 pkg install -y pv
 apt install python -y
-pip install -y fish
+pkg install -y fish
 pkg install -y vim
 #!/data/data/com.termux/usr/bin/bash
 clear
