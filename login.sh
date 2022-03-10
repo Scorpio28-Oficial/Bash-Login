@@ -6,7 +6,6 @@ echo -e "\e[1;37m
 -----------------------------------------------------------\e[0m"
 echo
 cp login.sh $PREFIX/etc
-yes|pkg update && pkg upgrade
 pkg install -y pv
 apt install python -y
 pkg install -y fish
