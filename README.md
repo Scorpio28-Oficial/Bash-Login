@@ -19,14 +19,10 @@ $ chmod 777 login.sh
 
 $ bash login.sh
 ```
-### By: Por Scorpio28
 
-#### Captura 1
-<p align="center">
-	<img src="https://i.imgur.com/a2MBQnW.jpeg" width="600px">
-</p>
 
-#### Captura 2
-<p align="center">
-	<img src="https://i.imgur.com/W3O2e9O.jpeg" width="600px">
-</p>
+<li>
+<a href="https://t.me/Informatic_in_Termux">Informatic in Termux</a>
+</li>
+
+###### Creator: Scorpio28
