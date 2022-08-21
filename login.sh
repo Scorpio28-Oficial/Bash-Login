@@ -13,6 +13,7 @@ echo -e "\e[1;31m
 echo -e ""
 echo -e ""
 sleep 1
+echo -e ""
 echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m STARTING THE PACKAGE INSTALLATION...\e[0m"
 sleep 0.5
 echo -e ""
@@ -33,7 +34,6 @@ pkg install -y nmap
 echo -e ""
 sleep 1
 echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLING TOR...\e[0m"
-echo -e ""
 sleep 0.5
 pkg install tor -y 
 pkg install torsocks -y 
