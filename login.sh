@@ -161,7 +161,7 @@ sleep 0.5
 cat /data/data/com.termux/files/home/Bash-Login/Banners/banner.txt
 sleep 0.1
 echo -e ""
-PS1='\[\e[1;31;44m\] Scorpio28 \[\e[0m\]\[\e[0;97m\[\e[0m\]\[\e[1;31;42m\]\w \[\e[0m\]\[\e[1;32m\]𒆖\[\e[0m\] '
+PS1="\[\e[1;37m╭━━━( \033[1;30m@\033[1;32mScorpio28\033[0;35m\w\e[0m )━━━●\n│\n╰━━━═>>> "
 shopt -s autocd
 shopt -s cdspell
 shopt -s checkhash
