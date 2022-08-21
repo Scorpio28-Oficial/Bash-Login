@@ -7,7 +7,7 @@
 #
 echo -e "\e[1;31m
 --------------------------------------------------
-          \e[1;32m B Y  S C O R P I O 2 8        
+             \e[1;32m B Y  S C O R P I O 2 8        
        Starting the Bash-Login Installation\e[1;31m
 --------------------------------------------------\e[0m"
 echo -e ""
