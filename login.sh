@@ -1,16 +1,132 @@
 #!/bim/bash
-echo -e "\e[1;37m
------------------------------------------------------------
-                   B Y  S C O R P I O 2 8        
-            Starting the Bash-Login Installation
------------------------------------------------------------\e[0m"
-echo
-cp login.sh $PREFIX/etc
+echo -e "\e[1;31m
+--------------------------------------------------------
+             \e[1;32m B Y  S C O R P I O 2 8        
+          Starting the Bash-Login Installation\e[1;31m
+--------------------------------------------------------\e[0m"
+echo -e ""
+cd $HOME
+sleep 1
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m STARTING THE PACKAGE INSTALLATION...\e[0m"
+sleep 0.5
+echo -e ""
+echo -e ""
+cd $HOME
+sleep 1
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m UPDATING PACKAGES...\e[0m"
+sleep 0.5
+apt update && apt upgrade -y
+echo -e ""
+sleep 1
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLING PYTHON...\e[0m"
+sleep 0.5
+apt install -y python
+echo -e ""
+sleep 1
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLING NMAP...\e[0m"
+sleep 0.5
+pkg install -y nmap
+echo -e ""
+sleep 1
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLING TOR...\e[0m"
+echo -e ""
+sleep 0.5
+pkg install tor -y 
+pkg install torsocks -y 
+pkg install proxychains-ng -y 
+pkg install w3m -y
+echo -e ""
+sleep 1
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLING PHP...\e[0m"
+sleep 0.5
+pkg install -y php
+echo -e ""
+sleep 1
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLING PROOT...\e[0m"
+sleep 0.5
+pkg install proot - y
+echo -e ""
+sleep 1
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLING OPENSSH...\e[0m"
+sleep 0.5
+pkg install -y openssh
+echo -e ""
+sleep 1
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLING OPENSSL...\e[0m"
+sleep 0.5
+pkg install -y openssl
+echo -e ""
+sleep 1
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLING CURL...\e[0m"
+sleep 0.5
+pkg install -y curl
+echo -e ""
+sleep 1
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLING PERL...\e[0m"
+sleep 0.5
+pkg install -y perl
+echo -e ""
+sleep 1
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLING SHODAN...\e[0m"
+sleep 0.5
+pip install --upgrade pip
+easy_install shodan
+pip install shodan requests
+echo -e ""
+sleep 1
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLING WGET...\e[0m"
+sleep 0.5
+pkg install -y wget
+echo -e ""
+sleep 1
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLING FISH...\e[0m"
+sleep 0.5
 pkg install -y fish
+echo -e ""
+sleep 1
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLING BASH...\e[0m"
+sleep 0.5
+pkg install -y bash
+echo -e ""
+sleep 1
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLING NANO...\e[0m"
+sleep 0.5
+pkg install -y nano
+echo -e ""
+sleep 1
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLING TMATE...\e[0m"
+sleep 0.5
+yes|apt install tmate
+echo -e ""
+sleep 1
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLING VIM...\e[0m"
+sleep 0.5
 pkg install -y vim
-omf install bobthefish
-omf install separation
-#!/data/data/com.termux/usr/bin/bash
+echo -e ""
+sleep 1
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32mINSTALLING JQ...\e[0m"
+sleep 0.5
+pkg insnall -y jq
+echo -e ""
+sleep 1
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLING NODEJS...\e[0m"
+sleep 0.5
+pkg install -y nodejs
+pkg install -y nodejs-lts
+echo -e ""
+sleep 1
+echo -e ""
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m OTHER DEPENDENCIES...\e[0m"
+sleep 0.5
+pkg install git
+yes | pkg install netcat-openbsd
+yes | pkg install mutt
+yes | pkg install nodejs
+apt-get install -y espeak
+apt install termimage -y
+apt-get install jp2a -y
+pkg install -y pv
+pkg install proot - y
 clear
 echo -e "
 \e[1;32m█▀▀█ █▀▀█ █▀▀ █░░█ \e[1;30m█░░░ █▀▀█ █▀▀▀ ░▀░ █▀▀▄
@@ -40,49 +156,7 @@ rm bash.bashrc
 cat <<LOGIN>bash.bashrc
 trap '' 2
 sleep 0.5
-echo -e "\e[1;30m╔══════════════════════════════════════════════════════╗\e[1;32m"
-sleep 0.1
-echo -e "\e[1;30m║\e[1;32m   \e[1;30m[\e[1;36m+\e[1;30m] \e[1;30m[\e[1;36m+\e[1;30m] \e[1;30m[\e[1;36m+\e[1;30m]\e[1;37m 🎭 S C O R P I O 2 8 🎭 \e[1;30m[\e[1;36m+\e[1;30m] \e[1;30m[\e[1;36m+\e[1;30m] \e[1;30m[\e[1;36m+\e[1;30m]\e[1;32m    \e[1;30m║"
-sleep 0.1
-echo -e "\e[1;30m║\e[1;32m                                                      \e[1;30m║\e[1;32m"
-sleep 0.1
-echo -e "\e[1;30m║\e[1;32m           . .IIIII             .II                   \e[1;30m║\e[1;32m"
-sleep 0.1
-echo -e "\e[1;30m║\e[1;32m  IIIIIII. I  II  .    II..IIIIIIIIIIIIIIIIIIII       \e[1;30m║\e[1;32m"
-sleep 0.1
-echo -e "\e[1;30m║\e[1;32m .  .IIIIII  II          III \e[1;37mInformatic\e[1;32m IIIIIIIII.    \e[1;30m║\e[1;32m"
-sleep 0.1
-echo -e "\e[1;30m║\e[1;32m    .IIIII.III I      IIIIIIIIII \e[1;37min\e[1;32m IIIIIIIII  I.     \e[1;30m║\e[1;32m"
-sleep 0.1
-echo -e "\e[1;30m║\e[1;32m   .IIIIII \e[1;37mHacking\e[1;32m II  .IIIII \e[1;37mTermux\e[1;32m IIIII. III       \e[1;30m║\e[1;32m"
-sleep 0.1
-echo -e "\e[1;30m║\e[1;32m    IIIIIII \e[1;37mFrom\e[1;32m    ' IIIII I IIIIIIIIIIII III I      \e[1;30m║\e[1;32m"
-sleep 0.1
-echo -e "\e[1;30m║\e[1;32m    .II    \e[1;37mTermux\e[1;32m      IIIIIIIIIIII  IIIIIIIIII       \e[1;30m║\e[1;32m"
-sleep 0.1
-echo -e "\e[1;30m║\e[1;32m       I.           .IIIIIIIIIIII   I   II  I         \e[1;30m║\e[1;32m"
-sleep 0.1
-echo -e "\e[1;30m║\e[1;32m         .IIII        IIIIIIIIIIII     .       I      \e[1;30m║\e[1;32m"
-sleep 0.1
-echo -e "\e[1;30m║\e[1;32m          IIIII.          IIIIII            . I.      \e[1;30m║\e[1;32m"
-sleep 0.1
-echo -e "\e[1;30m║\e[1;32m         IIIIIIIII         IIIII            ..I  II.  \e[1;30m║\e[1;32m"
-sleep 0.1
-echo -e "\e[1;30m║\e[1;32m          IIIIIII          IIII..             IIQII   \e[1;30m║\e[1;32m"
-sleep 0.1
-echo -e "\e[1;30m║\e[1;32m            IIII           III. I            IIIEIII  \e[1;30m║\e[1;32m"
-sleep 0.1
-echo -e "\e[1;30m║\e[1;32m            III             I                I  IPI   \e[1;30m║\e[1;32m"
-sleep 0.1
-echo -e "\e[1;30m║\e[1;32m             II       \e[1;30m[\e[1;31m+\e[1;30m] \e[1;37mEthical \e[1;30m[\e[1;31m+\e[1;30m]\e[1;32m        D   .    \e[1;30m║\e[1;32m"
-sleep 0.1
-echo -e "\e[1;30m║\e[1;32m             I            \e[1;33mHacking\e[1;32m                     \e[1;30m║\e[1;32m"
-sleep 0.1
-echo -e "\e[1;30m║\e[1;32m                                                      \e[1;30m║\e[1;32m"
-sleep 0.1
-echo -e "\e[1;30m║\e[1;32m \e[1;30m[\e[1;36m>\e[1;30m] \e[1;30m[\e[1;36m>\e[1;30m] \e[1;30m[\e[1;36m>\e[1;30m]\e[1;37m $(date) \e[1;30m[\e[1;36m<\e[1;30m] \e[1;30m[\e[1;36m<\e[1;30m] \e[1;30m[\e[1;36m<\e[1;30m] \e[1;30m║\e[1;32m"
-sleep 0.1
-echo -e "\e[1;30m╚══════════════════════════════════════════════════════╝\e[0m"
+cat /data/data/com.termux/files/home/Bash-Login/Banners/banner.txt
 echo -e ""
 sleep 0.1
 echo -e "\e[1;30m            >>>\e[1;32m ENTER YOUR ACCESS CODE\e[1;30m <<<\e[0m"
@@ -93,75 +167,7 @@ if [[ \$pass == $password && \$user == $username ]]; then
 clear
 echo -e ""
 sleep 0.5
-echo -e "\e[1;30m            ╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗"
-sleep 0.1
-echo -e "            ┃\e[1;32m   ••   …………………………………   ●   \e[1;30m┃"
-sleep 0.1
-echo -e "            ┃                            ┃"
-sleep 0.1
-echo -e "            ┃ ██████████████████████████ ┃"
-sleep 0.1
-echo -e "            ┃ ██████████████████████████ ┃"
-sleep 0.1
-echo -e "            ┃ ██████████████████████████ ┃"
-sleep 0.1
-echo -e "            ┃ ██████████████████████████ ┃"
-sleep 0.1
-echo -e "            ┃ ██████████████████████████ ┃"
-sleep 0.1
-echo -e "            ┃ ██████████████████████████ ┃"
-sleep 0.1
-echo -e "            ┃ ██████████████████████████ ┃"
-sleep 0.1
-echo -e "            ┃ ██████████████████████████ ┃"
-sleep 0.1
-echo -e "            ┃ █████████        █████████ ┃"
-sleep 0.1
-echo -e "            ┃ █████████        █████████ ┃"
-sleep 0.1
-echo -e "            ┃ █████████ \e[1;32m  >_   \e[1;30m█████████ ┃"
-sleep 0.1
-echo -e "            ┃ █████████        █████████ ┃"
-sleep 0.1
-echo -e "            ┃ █████████        █████████ ┃"
-sleep 0.1
-echo -e "            ┃ ██████████████████████████ ┃"
-sleep 0.1
-echo -e "            ┃ ██████████████████████████ ┃"
-sleep 0.1
-echo -e "            ┃ ██████████████████████████ ┃"
-sleep 0.1
-echo -e "            ┃ ██████████████████████████ ┃"
-sleep 0.1
-echo -e "            ┃ ██████████████████████████ ┃"
-sleep 0.1
-echo -e "            ┃ ██████████████████████████ ┃"
-sleep 0.1
-echo -e "            ┃ ██████████████████████████ ┃"
-sleep 0.1
-echo -e "            ┃ ██████████████████████████ ┃"
-sleep 0.1
-echo -e "            ┃                            ┃"
-sleep 0.1
-echo -e "            ┃\e[1;32m   [=]    [________]   ->   \e[1;30m┃"
-sleep 0.1
-echo -e "            ╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝"
-sleep 0.1
-echo -e "            ┃"
-sleep 0.1
-echo -e "            ┃     ┌══════════════════════┐"
-sleep 0.1
-echo -e "            └─═>>>█ \e[1;32mInformatic in Termux \e[1;30m█"
-sleep 0.1
-echo -e "                  └══════════════════════┘"
-sleep 0.1
-echo -e ""
-sleep 0.1
-echo -e "┌════════════════════════════════════════┐"
-sleep 0.1
-echo -e "█\e[1;37m  >>>\e[1;32m $(date) \e[1;37m<<<  \e[1;30m█"
-sleep 0.1
-echo -e "└════════════════════════════════════════┘\e[0m"
+cat /data/data/com.termux/files/home/Bash-Login/Banners/banner.txt
 sleep 0.1
 echo -e ""
 PS1='\[\e[1;31;44m\] Scorpio28 \[\e[0m\]\[\e[0;97m\[\e[0m\]\[\e[1;31;42m\]\w \[\e[0m\]\[\e[1;32m\]𒆖\[\e[0m\] '
