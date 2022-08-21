@@ -4,9 +4,6 @@
 #
 # Team: Informatic in Termux
 #
-Architecture(){
-	if [ "${SYSTEM}" == "Android" ]; then
-
     if [ -x ${BIN}/python ]; then
 echo -e "\e[1;31m
 --------------------------------------------------------
@@ -171,9 +168,6 @@ apt-get install jp2a -y
 pkg install -y pv
 pkg install proot - y
     fi
-exit
-	fi
-}
 clear
 echo -e "\e[1;32m
 █▀▀█ █▀▀█ █▀▀ █░░█ █░░░ █▀▀█ █▀▀▀ ░▀░ █▀▀▄
@@ -195,10 +189,10 @@ sleep 0.5
 cat /data/data/com.termux/files/home/Bash-Login/Banners/banner.txt
 echo -e ""
 sleep 0.1
-echo -e "\e[1;31m                           [\e[1;37m+\e[1;31m]\e[1;31m ENTER YOUR ACCESS CODE \e[1;31m[\e[1;37m+\e[1;31m]\e[0m"
+echo -e "\e[1;31m                   [\e[1;37m+\e[1;31m]\e[1;31m ENTER YOUR ACCESS CODE \e[1;31m[\e[1;37m+\e[1;31m]\e[0m"
 read -p $'\e[1;37m
-\e[1;37m                                 ●\e[1;31m USERNAME\e[1;31m:\e[1;37m ' user
-read -s -p $'\e[1;37m                                 ●\e[1;31m PASSWORD\e[1;31m:\e[1;37m ' pass
+\e[1;37m                         ●\e[1;31m USERNAME\e[1;31m:\e[1;37m ' user
+read -s -p $'\e[1;37m                         ●\e[1;31m PASSWORD\e[1;31m:\e[1;37m ' pass
 
 if [[ \$pass == $password && \$user == $username ]]; then
 clear
