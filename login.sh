@@ -17,6 +17,8 @@ echo -e ""
 echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m STARTING THE PACKAGE INSTALLATION...\e[0m"
 sleep 0.5
 echo -e ""
+echo -e ""
+echo -e ""
 sleep 1
 echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m UPDATING PACKAGES...\e[0m"
 sleep 0.5
