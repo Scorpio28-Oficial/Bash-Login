@@ -6,10 +6,10 @@
 #
 #
 echo -e "\e[1;31m
---------------------------------------------------------
-             \e[1;32m B Y  S C O R P I O 2 8        
-          Starting the Bash-Login Installation\e[1;31m
---------------------------------------------------------\e[0m"
+--------------------------------------------------
+          \e[1;32m B Y  S C O R P I O 2 8        
+       Starting the Bash-Login Installation\e[1;31m
+--------------------------------------------------\e[0m"
 echo -e ""
 echo -e ""
 sleep 1
@@ -24,7 +24,7 @@ echo -e ""
 sleep 1
 echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLING PYTHON...\e[0m"
 sleep 0.5
-apt install -y python
+pkg install -y python
 echo -e ""
 sleep 1
 echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLING NMAP...\e[0m"
@@ -44,11 +44,6 @@ sleep 1
 echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLING PHP...\e[0m"
 sleep 0.5
 pkg install -y php
-echo -e ""
-sleep 1
-echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLING PROOT...\e[0m"
-sleep 0.5
-pkg install proot - y
 echo -e ""
 sleep 1
 echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLING OPENSSH...\e[0m"
