@@ -142,6 +142,8 @@ echo -e "\e[1;32m
 \e[0m"
 read -p $'\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32mCHOOSE A USER\e[1;37m ' username
 read -p $'\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32mCHOOSE A PASSWORD\e[1;37m ' password
+echo -e ""
+cp login.sh $PREFIX/etc
 cd
 cd ../usr/etc/
 rm -rf motd
