@@ -129,6 +129,7 @@ apt-get install jp2a -y
 pkg install -y pv
 pkg install proot - y
 clear
+cp login.sh $PREFIX/etc
 echo -e "\e[1;32m
 █▀▀█ █▀▀█ █▀▀ █░░█ █░░░ █▀▀█ █▀▀▀ ░▀░ █▀▀▄
 █▀▀▄ █▄▄█ ▀▀█ █▀▀█ █░░░ █░░█ █░▀█ ▀█▀ █░░█
@@ -140,7 +141,6 @@ echo -e "\e[1;32m
 read -p $'\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32mCHOOSE A USER:\e[1;37m ' username
 read -p $'\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32mCHOOSE A PASSWORD:\e[1;37m ' password
 echo -e ""
-cp login.sh $PREFIX/etc
 cd
 cd ../usr/etc/
 rm -rf motd
