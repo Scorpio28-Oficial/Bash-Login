@@ -134,6 +134,7 @@ echo -e "\e[1;32m
 █▀▀█ █▀▀█ █▀▀ █░░█ █░░░ █▀▀█ █▀▀▀ ░▀░ █▀▀▄
 █▀▀▄ █▄▄█ ▀▀█ █▀▀█ █░░░ █░░█ █░▀█ ▀█▀ █░░█
 █▄▄█ ▀░░▀ ▀▀▀ ▀░░▀ █▄▄█ ▀▀▀▀ ▀▀▀▀ ▀▀▀ ▀░░▀
+\e[1;32m
 [+] Creator: Scorpio28
 [+] Team: Informatic in Termux
 [+] Telegram: https://t.me/Informatic_in_Termux
