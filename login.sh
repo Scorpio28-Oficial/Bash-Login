@@ -210,3 +210,4 @@ echo -e "\e[1;31m[\e[1;32m√\e[1;31m]\e[1;32m INSTALLATION COMPLETED\e[0m"
 sleep 3
 echo -e "\e[1;31m[\e[1;32m√\e[1;31m]\e[1;32m CLOSE AND REOPEN THE TERMINAL
 \e[0m"
+B
