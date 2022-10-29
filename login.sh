@@ -156,7 +156,7 @@ rm bash.bashrc
 cat <<LOGIN>bash.bashrc
 trap '' 2
 sleep 0.5
-cat /data/data/com.termux/files/home/Scorpio28/Banners/banner6.txt
+cat /data/data/com.termux/files/home/Bash-Login/Banners/banner6.txt
 echo -e ""
 sleep 0.1
 echo -e "\e[1;34m             >>> ENTER YOUR ACCESS CODE <<<\e[0m"
@@ -167,7 +167,7 @@ if [[ \$pass == $password && \$user == $username ]]; then
 clear
 echo -e ""
 sleep 0.5
-cat /data/data/com.termux/files/home/Scorpio28/Banners/banner6.txt
+cat /data/data/com.termux/files/home/Bash-Login/Banners/banner6.txt
 sleep 0.1
 echo -e ""
 PS1="\[\e[1;37m╭━━━( \033[1;30m@\033[1;32mScorpio28\033[0;35m\w\e[0m )━━━●\n│\n╰━━━═>>> "
